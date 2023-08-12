@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -21,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 375px;
+    gap: 425px;
     flex-shrink: 0;
 }
 
@@ -52,6 +56,10 @@ body {
     align-items: center;
 }
 
+.section1 .box1 .text {
+    padding-right: 20px;
+}
+
 .section1 .box1 {
     display: flex;
     flex-direction: column;
@@ -80,27 +88,84 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 125px;
-    height: 45px;
+    width: 120px;
+    height: 40px;
     background-color: #3882f6;
     border-radius: 8px;
     margin-top: 15px;
+    font-weight: 600;
 }
 
 .section2 {
     display: flex;
-    height: 500px;
-    background-color: #f9faf8;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 575px;
+    background-color: #fff;
+    align-items: center;
 } 
 
+.section2 .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.placeholder-image {
+    height: 175px;
+    width: 175px;
+    border: 4px solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+}
+
+.placeholder-text {
+    display: flex;
+    width: 175px;
+    height: 100px;
+    text-align: center;
+    color: #1f2937;
+    padding-top: 16px;
+}
+
 .section3 {
-    height: 450px;
+    display: flex;
+    height: 500px;
     background-color: #e5e7eb;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
 } 
+
+.textbox {
+    width: 850px;
+}
+
+.text1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.text2 {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 24px;
+}
 
 .section4 {
     height: 400px;
-    background-color: #f9faf8;
+    background-color: #fff;
 } 
 
 .footer {
