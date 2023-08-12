@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
-
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
@@ -29,10 +27,14 @@ body {
     flex-shrink: 0;
 }
 
-.header a:link{
+.header a:link {
     text-decoration: none;
     font-weight: normal;
     font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header a:visited {
     color: #e5e7eb;
 }
 
@@ -164,9 +166,50 @@ body {
 }
 
 .section4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 400px;
     background-color: #fff;
 } 
+
+.border-box {
+    display: flex;
+    height: 175px;
+    width: 950px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.border-box .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    border-color: #f9faf8;
+    border: 2px solid;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.border-box .title {
+    font-weight: 900;
+    font-size: 24px;
+}
 
 .footer {
     display: flex;
